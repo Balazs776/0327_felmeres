@@ -42,12 +42,13 @@ header table th {
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  gap: 15px;
+  justify-content: space-evenly;
+  gap: 10px;
   padding: 30px;
-  height: 600px;
+  height: 60vh;
   align-items: center;
   background-color: hsl(173, 34%, 58%);
+  text-align: center;
 }
 
 .div1 {
@@ -82,5 +83,6 @@ div:nth-of-type(4) {
   .wrapper {
     flex-direction: column;
     align-items: flex-start;
+    height: 100vh;
   }
 }
